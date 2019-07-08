@@ -39,10 +39,6 @@ Now you can check http://localhost:8000 or http://localhost:8000/test in your br
 ## Build for production
 
 ```bash
-pipenv lock -r > requirements.txt
-```
-
-```bash
 docker build -t hardcode-studio/python-app .
 ```
 
