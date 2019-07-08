@@ -34,7 +34,7 @@ Finally, run the app
 pipenv run python main.py
 ```
 
-Now you can check `http://localhost:8000` or `http://localhost:8000/test` in your browser
+Now you can check http://localhost:8000 or http://localhost:8000/test in your browser
 
 ## Build for production
 
