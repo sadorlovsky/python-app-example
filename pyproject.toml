@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "python-app-example"
+version = "0.1.0"
+description = "Python app example"
+authors = ["Zach Orlovsky <sadorlovsky@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sanic = "^21.9.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.11.1"
+black = "^21.9b0"
+poethepoet = "^0.10.0"
+
+[tool.poe.tasks]
+lint = "pylint app"
+format = "black app"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

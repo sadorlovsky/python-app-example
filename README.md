@@ -1,4 +1,4 @@
-# Python HTTP app example
+# Python app example
 
 ## Code
 
