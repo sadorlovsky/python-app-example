@@ -19,7 +19,7 @@ cd python-app-example
 Create a project with pipenv
 
 ```bash
-pipenv --python 3.7
+pipenv --python 3.10
 ```
 
 Install dependencies
@@ -34,7 +34,7 @@ Finally, run the app
 pipenv run python main.py
 ```
 
-Now you can check http://localhost:8000 or http://localhost:8000/test in your browser
+Now you can check http://localhost:8000 in your browser
 
 ## Build for production
 
